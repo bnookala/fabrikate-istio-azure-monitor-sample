@@ -1,0 +1,8 @@
+config:
+subcomponents:
+  istio-azure-monitor:
+    config:
+      instrumentation:
+        logLevel: Trace
+        applicationInsightsKey: "my-application-insights-key"
+        watchingNamespaces: "default,bookinfo,istio-system,kube-system"

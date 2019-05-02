@@ -1,0 +1,11 @@
+name: "fabrikate-azure-monitor-istio-tracing-sample"
+subcomponents:
+  - name: "istio"
+    source: "https://github.com/evanlouie/fabrikate-istio"
+    method: "git"
+  - name: "istio-azure-monitor"
+    source: "https://github.com/bnookala/fabrikate-istio-azure-monitor"
+    method: "git"
+  - name: "bookinfo"
+    source: "https://github.com/evanlouie/fabrikate-bookinfo"
+    method: "git"
