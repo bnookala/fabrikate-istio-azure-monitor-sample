@@ -1,5 +1,13 @@
 config:
 subcomponents:
+  istio:
+    config:
+      grafana:
+        enabled: true
+      tracing:
+        enabled: true
+      prometheus:
+        enabled: true
   istio-azure-monitor:
     config:
       instrumentation:
